@@ -20,6 +20,7 @@ jobs:
 
     - name: Build and upload to PyPI
       run: |
+        pip install --upgrade setuptools wheel
         python setup.py sdist bdist_wheel # 构建项目并创建包
         pip install twine # 安装Twine以便上传到PyPI
         twine upload dist/* # 使用Twine上传包到PyPI
