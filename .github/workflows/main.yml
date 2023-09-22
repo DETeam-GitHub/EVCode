@@ -18,9 +18,6 @@ jobs:
       with:
         python-version: 3.x # 选择适合你的Python版本
 
-    - name: Install dependencies
-      run: pip install -r requirements.txt # 安装项目的依赖项（如果有的话）
-
     - name: Build and upload to PyPI
       run: |
         python setup.py sdist bdist_wheel # 构建项目并创建包
