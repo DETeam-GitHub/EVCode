@@ -4,7 +4,7 @@ filepath = 'README.rst'
 
 setup(
     name='EVCode',
-    version='v1.1.0',
+    version='1.1.0',
     author='lidongxun967',
     author_email='debug967@outlook.com',
     description='一个通过SMTP进行邮箱验证码发送的项目',
