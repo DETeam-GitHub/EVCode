@@ -18,6 +18,7 @@ EVCode采用GNU Lesser General Public License v3 (LGPLv3)许可证。有关详�
 
 ## 联系方式
 
+- Wiki页面：[https://github.com/lidongxun967/EVCode/wiki](https://github.com/lidongxun967/EVCode/wiki)
 - 项目页面：[https://github.com/lidongxun967/EVCode](https://github.com/lidongxun967/EVCode)
 - PYPI页面：[https://pypi.org/project/EVCode](https://pypi.org/project/EVCode)
 - 作者：lidongxun967
