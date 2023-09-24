@@ -14,14 +14,14 @@
 
 ## 许可证
 
-EVCode采用GNU Lesser General Public License v3 (LGPLv3)许可证。有关详细信息，请参阅[LICENSE](https://github.com/lidongxun967/EVCode/blob/main/LICENSE)文件。
+EVCode采用GNU Lesser General Public License v3 (LGPLv3)许可证。有关详细信息，请参阅[LICENSE](https://github.com/DETeam-GitHub/EVCode/blob/main/LICENSE)文件。
 
 ## 联系方式
 
-- Wiki页面：[https://github.com/lidongxun967/EVCode/wiki](https://github.com/lidongxun967/EVCode/wiki)
-- 项目页面：[https://github.com/lidongxun967/EVCode](https://github.com/lidongxun967/EVCode)
-- PYPI页面：[https://pypi.org/project/EVCode](https://pypi.org/project/EVCode)
-- 作者：lidongxun967
+- Wiki页面：[GitHub-Wiki](https://github.com/lidongxun967/EVCode/wiki)
+- 项目页面：[GitHub](https://github.com/DETeam-GitHub/EVCode)
+- 包发布页面：[PYPI](https://pypi.org/project/EVCode)
+- 作者：DETeam的各位成员们，感谢他们！
 - 邮箱：<debug967@outlook.com>
 
 感谢使用EVCode！
