@@ -2,7 +2,7 @@ import random
 import string
 import random
 
-def insert_random_character_between_digits(input_string:str, characters):
+def insert_random_between(input_string:str, characters):
     if not characters:
         return input_string, None  # 如果字符列表为空，直接返回原字符串和 None
     

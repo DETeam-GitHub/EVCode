@@ -6,7 +6,8 @@ from warnings import warn
 
 class EVCode():
     def __init__(self,smtp_server,address,password,*
-                 ,subject="EVCode验证码",nickname="EVCode",imap_server=None,imap_ssl=True,captcha_page=EVCLib.index,random_func=EVCLib.generate_random_code):
+                 ,subject="EVCode验证码",nickname="EVCode",imap_server=None,imap_ssl=True
+                 ,captcha_page=EVCLib.index,code_interpolation="",random_func=EVCLib.generate_random_code):
         self.index=captcha_page
         self.smtp_domain,self.smtp_port = EVCLib.domain_split(smtp_server,587)
         self.send_email_address = address
@@ -14,6 +15,7 @@ class EVCode():
         self.captcha_random_func = random_func
         self.send_email_subject = subject
         self.send_email_nickname = nickname
+        self.code_interpolation = code_interpolation
         
         if imap_server:
             self.imap_domain,self.imap_port = EVCLib.domain_split(imap_server,993)
@@ -51,8 +53,11 @@ class EVCode():
 
         html_content = self.index
 
+        # 加入插值
+        verification_code_interpolation,interpolation = EVCLib.insert_random_between(html_content,self.code_interpolation)
+
         # 替换HTML内容中的验证码占位符
-        html_content = html_content.replace('{{verification_code}}', verification_code)
+        html_content = html_content.replace('{{verification_code}}', verification_code_interpolation)
 
         # 创建邮件对象
         msg = email.message.EmailMessage()
@@ -70,7 +75,8 @@ class EVCode():
             
             if self.clear_record:
                 self.delete_email_records()
-            
+            if interpolation:
+                return verification_code,interpolation
             return verification_code
         except Exception as e:
             warn(e)
