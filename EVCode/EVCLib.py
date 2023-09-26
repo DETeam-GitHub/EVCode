@@ -1,5 +1,18 @@
 import random
 import string
+import random
+
+def insert_random_character_between_digits(input_string:str, characters):
+    if not characters:
+        return input_string, None  # 如果字符列表为空，直接返回原字符串和 None
+    
+    # 从字符列表中随机选择一个字符
+    random_character = random.choice(characters)
+    
+    # 使用选择的字符在每个字符之间插入
+    result = random_character.join(input_string)
+    return result, random_character
+
 
 def generate_random_code():
     characters = string.ascii_uppercase + string.digits
