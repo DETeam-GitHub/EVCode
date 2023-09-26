@@ -160,4 +160,4 @@ cython_debug/
 #.idea/
 
 
-EVCode\test.py
+EVCode/test.py
