@@ -54,7 +54,7 @@ class EVCode():
         html_content = self.index
 
         # 加入插值
-        verification_code_interpolation,interpolation = EVCLib.insert_random_between(html_content,self.code_interpolation)
+        verification_code_interpolation,interpolation = EVCLib.insert_random_between(verification_code,self.code_interpolation)
 
         # 替换HTML内容中的验证码占位符
         html_content = html_content.replace('{{verification_code}}', verification_code_interpolation)
