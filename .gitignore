@@ -161,3 +161,4 @@ cython_debug/
 
 
 /EVCode/test.py
+/.github/workflows/main.yml
