@@ -104,3 +104,26 @@ index = """
 </body>
 </html>
 """
+
+def About():
+    print(r'''About EVCLib(EVCode):
+    _______    __________    _ __  
+   / ____/ |  / / ____/ /   (_) /_ 
+  / __/  | | / / /   / /   / / __ \
+ / /___  | |/ / /___/ /___/ / /_/ /
+/_____/  |___/\____/_____/_/_.___/ 
+
+欢迎使用本库！以下是本库信息：
+
+EVCLib（附属于 EVCode）采用GNU Lesser General Public License v3 (LGPLv3)许可证。
+
+Wiki页面：https://github.com/lidongxun967/EVCode/wiki
+项目页面：https://github.com/DETeam-GitHub/EVCode
+包发布页面：https://pypi.org/project/EVCode
+
+作者：DETeam的各位成员们，感谢他们！
+''')
+
+if __name__ == "__main__":
+    print("建议使用 import EVCLib 使用此库(如果你真的需要使用这个附属于 EVCode 的支持库)，直接运行会触发About！")
+    About()
