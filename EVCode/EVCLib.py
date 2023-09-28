@@ -125,5 +125,5 @@ Wiki页面：https://github.com/lidongxun967/EVCode/wiki
 ''')
 
 if __name__ == "__main__":
-    print("建议使用 import EVCLib 使用此库(如果你真的需要使用这个附属于 EVCode 的支持库)，直接运行会触发About！")
+    print("建议通过 import EVCLib 使用此库(如果你真的需要使用这个附属于 EVCode 的支持库)，直接运行会触发About！")
     About()
