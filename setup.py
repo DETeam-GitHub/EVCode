@@ -4,7 +4,7 @@ filepath = 'README.md'
 
 setup(
     name='EVCode',
-    version='1.4.0',
+    version='1.5.0',
     author='lidongxun967',
     author_email='debug967@outlook.com',
     description='一个通过SMTP进行邮箱验证码发送的项目',
@@ -13,7 +13,7 @@ setup(
     packages=find_packages(),
     install_requires=[],
     classifiers=[
-        'Development Status :: 4 - Beta',
+        'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)',
         'Programming Language :: Python :: 3.7',
