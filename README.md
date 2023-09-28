@@ -1,5 +1,5 @@
 # EVCode
-![English](/README_en.md)
+[English](/README_en.md)
 
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/EVCode?style=for-the-badge&logo=python&label=%E6%94%AF%E6%8C%81%E7%9A%84%20Pyhon%20%E7%89%88%E6%9C%AC)
 ![PyPI - Version](https://img.shields.io/pypi/v/EVCode?style=for-the-badge&logo=python&label=%E5%BD%93%E5%89%8D%E7%89%88%E6%9C%AC)
