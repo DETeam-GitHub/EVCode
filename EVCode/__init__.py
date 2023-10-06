@@ -4,7 +4,7 @@ import smtplib
 import imaplib
 import poplib
 import email.message
-import EVCLib
+from . import EVCLib
 from warnings import warn
 
 def check_encryption_mode(server, port, protocol):
