@@ -34,3 +34,5 @@ EVCode采用GNU Lesser General Public License v3 (LGPLv3)许可证。有关详�
 - 作者：DETeam的各位成员们，感谢他们！
 
 感谢使用EVCode！
+
+![Star History Chart](https://api.star-history.com/svg?repos=DETeam-GitHub/EVCode&type=Date)
